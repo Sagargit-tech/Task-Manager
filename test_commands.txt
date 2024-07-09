@@ -1,0 +1,17 @@
+# Run test_user_registration with verbose output
+pytest -v tasks/tests/test_users.py::test_user_registration
+
+# Run test_obtain_token with verbose output
+pytest -v tasks/tests/test_users.py::test_obtain_token
+
+# Run test_admin_user_creation with verbose output
+pytest -v tasks/tests/test_users.py::test_admin_user_creation
+
+# Run test_standard_user_creation with verbose output
+pytest -v tasks/tests/test_users.py::test_standard_user_creation
+
+# Run test_create_task with verbose output
+pytest -v tasks/tests/test_task.py::test_create_task
+
+# Run test_standard_user_permissions with verbose output
+pytest -v tasks/tests/test_task.py::test_standard_user_permissions
